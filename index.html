@@ -1,126 +1,60 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Agricultura Sustentável</title>
-  <style>
-    body {
-      font-family: 'Segoe UI', Arial, sans-serif;
-      margin: 0;
-      background-color: #f5fff1;
-      color: #333;
-    }
-
-    header {
-      background-color: #4caf50;
-      color: white;
-      text-align: center;
-      padding: 2rem;
-      background-image: url('https://images.unsplash.com/photo-1524593119773-9d6c5a1f1b1d?auto=format&fit=crop&w=1400&q=80');
-      background-size: cover;
-      background-position: center;
-    }
-
-    header h1 {
-      text-shadow: 2px 2px 6px rgba(0,0,0,0.5);
-    }
-
-    nav {
-      margin-top: 1rem;
-    }
-
-    nav a {
-      color: white;
-      text-decoration: none;
-      margin: 0 1rem;
-      font-weight: bold;
-      background-color: rgba(0,0,0,0.2);
-      padding: 0.5rem 1rem;
-      border-radius: 5px;
-    }
-
-    nav a:hover {
-      background-color: rgba(255,255,255,0.3);
-    }
-
-    main {
-      padding: 2rem;
-      max-width: 1000px;
-      margin: auto;
-    }
-
-    section {
-      margin-bottom: 3rem;
-      background: white;
-      padding: 1.5rem;
-      border-radius: 8px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    }
-
-    h2 {
-      color: #2e7d32;
-    }
-
-    img {
-      width: 100%;
-      border-radius: 8px;
-      margin-top: 1rem;
-    }
-
-    footer {
-      text-align: center;
-      background-color: #388e3c;
-      color: white;
-      padding: 1rem;
-      font-size: 0.9rem;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mundo da Agricultura</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>🌾 Agricultura Sustentável</h1>
-    <p>O futuro verde começa no campo</p>
+
+    <header>
+        <h1>🌾 Mundo da Agricultura</h1>
+        <p>Explorando o campo e suas tecnologias</p>
+    </header>
+
     <nav>
-      <a href="#sobre">Sobre</a>
-      <a href="#tecnologia">Tecnologia</a>
-      <a href="#colheita">Colheita</a>
+        <a href="#inicio">Início</a>
+        <a href="#culturas">Culturas</a>
+        <a href="#tecnologia">Tecnologia</a>
     </nav>
-  </header>
 
-  <main>
-    <section id="sobre">
-      <h2>Sobre a Agricultura</h2>
-      <p>
-        A agricultura é uma das atividades mais antigas da humanidade.
-        Ela garante o alimento, sustento e equilíbrio entre as pessoas e a natureza.
-        A agricultura sustentável busca preservar os recursos naturais e 
-        garantir uma produção responsável para as futuras gerações.
-      </p>
-      <img src="https://images.unsplash.com/photo-1524593119773-9d6c5a1f1b1d?auto=format&fit=crop&w=1200&q=80" alt="Plantação verde ao amanhecer">
-    </section>
+    <main>
+        <section id="inicio">
+            <h2>Bem-vindo ao Nosso Site</h2>
+            <p>A agricultura é a espinha dorsal da nossa civilização, fornecendo alimentos, fibras e combustível. Explore conosco as maravilhas e os desafios do campo.</p>
+            <img src="images/campo.jpg" alt="Um vasto campo verde sob um céu azul">
+        </section>
 
-    <section id="tecnologia">
-      <h2>Tecnologia no Campo</h2>
-      <p>
-        A tecnologia agrícola está revolucionando o campo: tratores autônomos, drones para monitoramento,
-        sensores de umidade e inteligência artificial ajudam o agricultor a produzir mais com menos impacto.
-      </p>
-      <img src="https://images.unsplash.com/photo-1591640628280-9fbb8be0c492?auto=format&fit=crop&w=1200&q=80" alt="Trator moderno arando a terra">
-    </section>
+        <section id="culturas">
+            <h2>Principais Culturas</h2>
+            <p>O Brasil é um gigante na produção de diversas culturas. Veja algumas das principais:</p>
+            <div class="galeria">
+                <div class="item-galeria">
+                    <img src="images/soja.jpg" alt="Plantação de soja">
+                    <h3>Soja</h3>
+                </div>
+                <div class="item-galeria">
+                    <img src="images/milho.jpg" alt="Espiga de milho na plantação">
+                    <h3>Milho</h3>
+                </div>
+                <div class="item-galeria">
+                    <img src="images/cafe.jpg" alt="Grãos de café">
+                    <h3>Café</h3>
+                </div>
+            </div>
+        </section>
 
-    <section id="colheita">
-      <h2>Colheita e Produção</h2>
-      <p>
-        A colheita é o resultado de meses de trabalho e dedicação. 
-        Cada safra representa o esforço de agricultores comprometidos com a qualidade e a sustentabilidade.
-      </p>
-      <img src="https://images.unsplash.com/photo-1590080875831-37b66a0e3e57?auto=format&fit=crop&w=1200&q=80" alt="Colheita de grãos dourados">
-    </section>
-  </main>
+        <section id="tecnologia">
+            <h2>Tecnologia no Campo</h2>
+            <p>A agricultura moderna (AgroTech) utiliza drones, GPS, e análise de dados para aumentar a eficiência e a sustentabilidade.</p>
+            <img src="images/drone.jpg" alt="Drone sobrevoando uma plantação">
+        </section>
+    </main>
 
-  <footer>
-    <p>© 2025 Agricultura Sustentável — Criado com 💚 para o campo</p>
-  </footer>
+    <footer>
+        <p>&copy; 2025 Mundo da Agricultura. Todos os direitos reservados.</p>
+    </footer>
+
 </body>
 </html>

@@ -1,0 +1,103 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #4CAF50; /* Verde-agricultura */
+    color: white;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+/* Navegação */
+nav {
+    background-color: #333;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Conteúdo principal */
+main {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+section {
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+section h2 {
+    color: #4CAF50;
+    margin-bottom: 15px;
+}
+
+/* Estilo das Imagens */
+img {
+    max-width: 100%; /* Faz a imagem ser responsiva */
+    height: auto;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+/* Galeria de Culturas */
+.galeria {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; /* Para telas menores, os itens quebram a linha */
+}
+
+.item-galeria {
+    width: 30%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.item-galeria img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover; /* Garante que a imagem preencha o espaço */
+    border: 1px solid #ddd;
+}
+
+.item-galeria h3 {
+    margin-top: 10px;
+    color: #555;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+    margin-top: 20px;
+}
